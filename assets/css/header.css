@@ -1,0 +1,29 @@
+body nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+body nav img {
+  width: 20vw;
+}
+body nav button {
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: transparent;
+  padding: 10px 20px;
+}
+body nav a {
+  text-decoration: none;
+  border-radius: 40px;
+  background-color: transparent;
+  font-size: 18px;
+  padding: 10px 20px;
+  color: black;
+}
+body nav button:hover, body nav a:hover {
+  background-color: #aca8a8;
+}/*# sourceMappingURL=header.css.map */
