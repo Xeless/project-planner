@@ -1,9 +1,17 @@
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+
+.dark-mode {
+  --background-color: #111111;
+  --text-color: #ffffff;
+}
+
 body nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  overflow: hidden;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+  justify-content: space-between;
 }
 body nav img {
   width: 20vw;
@@ -15,6 +23,7 @@ body nav button {
   font-size: 18px;
   background-color: transparent;
   padding: 10px 20px;
+  color: var(--text-color);
 }
 body nav a {
   text-decoration: none;
@@ -22,7 +31,7 @@ body nav a {
   background-color: transparent;
   font-size: 18px;
   padding: 10px 20px;
-  color: black;
+  color: var(--text-color);
 }
 body nav button:hover, body nav a:hover {
   background-color: #aca8a8;
