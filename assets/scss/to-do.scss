@@ -1,0 +1,48 @@
+// ------------------------------------mobile-----------------------------
+:root {
+    --background-color: #ffffff; /* Couleur de fond par défaut */
+    --text-color: #000000; /* Couleur du texte par défaut */
+  }
+  
+  /* Mode sombre */
+  .dark-mode {
+    --background-color: #111111; /* Couleur de fond en mode sombre */
+    --text-color: #ffffff; /* Couleur du texte en mode sombre */
+  }
+  
+  body {
+    width: 100%;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .content {
+    display: flex;
+  }
+  
+  .to-do {
+    background-color: #0088cc;
+    height: auto;
+    width: 35%;
+    color: white;
+  }
+  
+  .doing {
+    background-color: #cc8014;
+    height: auto;
+    width: 35%;
+    color: white;
+  }
+  
+  .done {
+    background-color: #6ea138;
+    height: auto;
+    width: 35%;
+    color: white;
+  }
+  
+// -------------------------------pc-------------------------------------
+  
+@media screen and (min-width:601px) {
+    
+}
