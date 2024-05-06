@@ -1,0 +1,43 @@
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+}
+
+.dark-mode {
+    --background-color: #111111;
+    --text-color: #ffffff; 
+}
+
+body{
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img{
+            width: 20vw;
+        }
+        button{
+            border: none;
+            border-radius: 40px;
+            cursor: pointer;
+            font-size: 18px;
+            background-color: transparent;
+            padding: 10px 20px;
+            color: var(--text-color);
+        }
+        a{
+            text-decoration: none;
+            border-radius: 40px;
+            background-color: transparent;
+            font-size: 18px;
+            padding: 10px 20px;
+            color: var(--text-color);
+        }
+        button:hover, a:hover {
+            background-color: #aca8a8;
+        }
+    }
+
+}

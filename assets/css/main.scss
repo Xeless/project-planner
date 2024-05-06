@@ -1,0 +1,53 @@
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+}
+
+.dark-mode {
+    --background-color: #111111;
+    --text-color: #ffffff; 
+}
+
+body {
+    background-color: var(--background-color);
+
+    main{
+        color: #ffffff;
+        .task {
+            display: flex;
+            align-items: center;
+            h3{
+                margin: 0 20px;
+            }
+        }
+        .to-do {
+            background-color: rgba(29,172,252,255);
+            height: 35%;
+            width: 35%;
+            
+        }
+    
+        .in-progress {
+            background-color: rgba(214,56,84,255);
+            height: 35%;
+            width: 35%;
+        }
+    
+        .done {
+            background-color: rgba(140,202,80,255);
+            height: 35%;
+            width: 35%;
+        }
+    }
+}
+
+
+@media screen and (min-width:481px) {
+    body{
+        main{
+            .content{
+                display: flex;
+            }
+        }
+    }
+}
