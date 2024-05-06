@@ -7,32 +7,41 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/task.css">
     <link rel="stylesheet" href="assets/css/to-do.css">
-    <script defer src="./assets/js/script.js"></script>
+    <link rel="stylesheet" href="assets/css/header.css">
     <script defer src="assets/JS/task.js"></script>
     <script defer src="https://kit.fontawesome.com/8648ca5510.js" crossorigin="anonymous"></script> 
     <title>Document</title>
 </head>
 <body>
     <header>
+        <nav>
+            <img src="./assets/images/logo-light.png" alt="logo">
+            <button id="addTaskButton" >Add task</button>
+            <form action="submit">
+                <input type="text" id="taskTitle" class="date" placeholder="Enter Titre">
+                <input type="text" id="taskDescription" class="date" placeholder="Enter description">
+                <input type="date" id="taskDate" class="date">
+
+
+            </form>
+            <a href="#">To do</a>
+            <a href="#">In progress</a>
+            <a href="#">Done</a>
+        </nav>
     </header>
     <main>
 
-        <div class="bulle-content">
-            <h2 class="titre">test</h2>
-            <p class="description">dskgdkfgkdf</p>
-            <p>27/08/24</p>
-        </div>
 
+        <div class="to-do-container" id="to-do-list"> <h3> <i class="fa-solid fa-clipboard-list"></i> To do liste</h3>
+            <div class="test" id="test">
 
-        <div class="to-do"><h3> <i class="fa-solid fa-clipboard-list"></i> To do liste</h3>
-            <div>
             </div>
         </div>
         <div class="doing"><h3> <i class="fa-solid fa-bars-progress"></i>  Progress</h3>
             <div>
             </div>
         </div>
-        <div class="done"><h3> <i class="fa-solid fa-check" style="color: #63E6BE;"></i>  Done</h3>
+        <div class="done" id="done-checked"><h3> <i class="fa-solid fa-check" style="color: #63E6BE;"></i>  Done</h3>
             <div>
                
             </div>

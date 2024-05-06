@@ -20,11 +20,19 @@ body {
   display: flex;
 }
 
-.to-do {
+.to-do-container {
   background-color: #0088cc;
   height: auto;
   width: 35%;
   color: white;
+}
+.to-do-container .test {
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  color: black;
 }
 
 .doing {

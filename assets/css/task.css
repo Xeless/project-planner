@@ -10,11 +10,12 @@ body main {
   justify-content: center;
 }
 body main .bulle-content {
-  width: 25%;
+  width: 90%;
   margin-top: 5%;
   border-radius: 13px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  padding: 1%;
+  padding: 3%;
+  margin-left: 5%;
 }
 body main .bulle-content .titre {
   line-height: 1rem;
@@ -22,5 +23,12 @@ body main .bulle-content .titre {
 }
 body main .bulle-content .description {
   line-height: 3.5rem;
+  color: darkgray;
+}
+body main .bulle-content .date-container {
+  display: flex;
+  justify-content: space-between;
+}
+body main .bulle-content .date-container .date {
   color: #8a9499;
 }/*# sourceMappingURL=task.css.map */
