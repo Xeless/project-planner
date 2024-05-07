@@ -14,28 +14,6 @@ body {
 body main {
   color: #ffffff;
 }
-body main .task {
-  display: flex;
-  align-items: center;
-}
-body main .task h3 {
-  margin: 0 20px;
-}
-body main .to-do {
-  background-color: rgb(29, 172, 252);
-  height: 35%;
-  width: 35%;
-}
-body main .in-progress {
-  background-color: rgb(214, 56, 84);
-  height: 35%;
-  width: 35%;
-}
-body main .done {
-  background-color: rgb(140, 202, 80);
-  height: 35%;
-  width: 35%;
-}
 
 @media screen and (min-width: 481px) {
   body main .content {

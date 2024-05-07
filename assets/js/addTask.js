@@ -1,8 +1,8 @@
-const addTaskButton = document.getElementById('addTaskButton');
+const openModaltask = document.getElementById('openModal');
 const modal = document.getElementById('myModal');
 const closeModal = document.getElementsByClassName('close')[0];
 
-addTaskButton.addEventListener('click', function() {
+openModaltask.addEventListener('click', function() {
     modal.style.display = 'block';
 });
 

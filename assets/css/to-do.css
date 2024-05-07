@@ -11,6 +11,7 @@
 }
 
 body {
+  width: 100%;
   background-color: var(--background-color);
   color: var(--text-color);
 }
@@ -19,20 +20,46 @@ body {
   display: flex;
 }
 
-.to-do {
-  background-color: rgb(251, 109, 84);
-  height: 35%;
+.to-do-container {
+  background-color: #0088cc;
+  height: auto;
   width: 35%;
+  color: white;
+}
+.to-do-container h3 {
+  font-size: 1.6rem;
+  background-color: #00aaff;
+  padding: 2%;
+}
+.to-do-container .test {
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  color: black;
 }
 
 .doing {
-  background-color: aqua;
-  height: 35%;
+  background-color: #cc8014;
+  height: auto;
   width: 35%;
+  color: white;
+}
+.doing h3 {
+  font-size: 1.6rem;
+  background-color: #ff9f19;
+  padding: 2%;
 }
 
 .done {
-  background-color: green;
-  height: 35%;
+  background-color: #6ea138;
+  height: auto;
   width: 35%;
+  color: white;
+}
+.done h3 {
+  font-size: 1.6rem;
+  background-color: #88c947;
+  padding: 2%;
 }/*# sourceMappingURL=to-do.css.map */
