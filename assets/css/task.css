@@ -16,8 +16,16 @@ body main .bulle-content {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding: 3%;
   margin-left: 5%;
+  background-color: white;
+  margin-bottom: 2%;
 }
-body main .bulle-content .titre {
+body main .bulle-content .title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+body main .bulle-content .title-container .titre {
+  color: black;
   line-height: 1rem;
   font-size: 1.4rem;
 }
@@ -31,4 +39,9 @@ body main .bulle-content .date-container {
 }
 body main .bulle-content .date-container .date {
   color: #8a9499;
+}
+body main .bulle-content .date-container .icon-date {
+  justify-content: end;
+  letter-spacing: 0.4rem;
+  cursor: pointer;
 }/*# sourceMappingURL=task.css.map */

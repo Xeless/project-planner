@@ -26,6 +26,11 @@ body {
   width: 35%;
   color: white;
 }
+.to-do-container h3 {
+  font-size: 1.6rem;
+  background-color: #00aaff;
+  padding: 2%;
+}
 .to-do-container .test {
   padding: 1%;
   display: flex;
@@ -41,10 +46,20 @@ body {
   width: 35%;
   color: white;
 }
+.doing h3 {
+  font-size: 1.6rem;
+  background-color: #ff9f19;
+  padding: 2%;
+}
 
 .done {
   background-color: #6ea138;
   height: auto;
   width: 35%;
   color: white;
+}
+.done h3 {
+  font-size: 1.6rem;
+  background-color: #88c947;
+  padding: 2%;
 }/*# sourceMappingURL=to-do.css.map */

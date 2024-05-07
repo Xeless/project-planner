@@ -7,6 +7,7 @@
 
 
 body {
+
     main {
         display: flex;
         justify-content: center;
@@ -18,12 +19,23 @@ body {
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             padding: 3%;
             margin-left: 5%;
+            background-color: white;
+            margin-bottom: 2%;
 
-            .titre{
-                line-height: 1rem;
-                font-size: 1.4rem;
+            .title-container{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 2%;
+
+                .titre{
+                    color: black;
+                    line-height: 1rem;
+                    font-size: 1.4rem;
+                }
 
             }
+
+            
 
             .description {
                 line-height: 3.5rem;
@@ -38,13 +50,12 @@ body {
                     color: #8a9499;
                 }
 
-            }
-            h2 {
-                
-                p {
-
-                    
+                .icon-date{
+                    justify-content: end;
+                    letter-spacing: 0.4rem;
+                    cursor: pointer;
                 }
+
             }
         }
 
