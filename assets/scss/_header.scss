@@ -17,10 +17,11 @@ body{
         justify-content: space-between;
         // padding: 10px;
          img{
-             width: 20vw;
+             width: 100%;
          }
         button{
             border: none;
+            width: 10%;
             border-radius: 40px;
             cursor: pointer;
             font-size: 18px;
@@ -46,6 +47,18 @@ body{
                 background-color: #aca8a8;
             }
         }
+    }
+
+    @media screen and (max-width: 767px) {
+      nav {
+        img{
+            width: 60%;
+        }
+        button{
+        width: 50%;
+        }
+      }
+
     }
 
 }

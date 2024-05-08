@@ -78,6 +78,23 @@
   
 // -------------------------------pc-------------------------------------
   
-@media screen and (min-width:601px) {
-    
+@media screen and (max-width: 767px) {
+             
+  main{
+      flex-direction: column;
+      display: flex;
+
+      .to-do-container {
+        width: 100%;
+      }
+
+      .doing{
+        width: 100%;
+      }
+
+      .done {
+        width: 100%;
+      }
+
+}
 }
