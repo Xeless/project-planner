@@ -23,6 +23,7 @@
   .to-do-container {
     background-color: #0088cc;
     height: auto;
+    min-height: calc(100vh - 108px);
     width: 35%;
     color: white;
 
@@ -51,6 +52,7 @@
     height: auto;
     width: 35%;
     color: white;
+    min-height: calc(100vh - 108px);
 
     h3{
       font-size: 1.6rem;
@@ -67,6 +69,7 @@
     height: auto;
     width: 35%;
     color: white;
+    min-height: calc(100vh - 108px);
 
     h3{
       font-size: 1.6rem;
@@ -86,14 +89,19 @@
 
       .to-do-container {
         width: 100%;
+        min-height: auto;
       }
 
       .doing{
         width: 100%;
+        min-height: auto;
+
       }
 
       .done {
         width: 100%;
+        min-height: auto;
+
       }
 
 }

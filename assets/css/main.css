@@ -88,20 +88,23 @@ body {
 body nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
-body nav img {
-  width: 100%;
+body nav .logo {
+  width: 80%;
 }
 body nav button {
   border: none;
-  width: 10%;
   border-radius: 40px;
   cursor: pointer;
   font-size: 18px;
   background-color: transparent;
   padding: 10px 20px;
   color: var(--text-color);
+}
+body nav .button-header {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
 }
 body button:hover {
   background-color: #aca8a8;
@@ -122,11 +125,11 @@ body .menu a:hover {
   background-color: #aca8a8;
 }
 @media screen and (max-width: 767px) {
-  body nav img {
-    width: 60%;
+  body nav .logo {
+    width: 70%;
   }
-  body nav button {
-    width: 50%;
+  body nav .button-header {
+    width: 30%;
   }
 }
 
@@ -201,6 +204,7 @@ body {
 .to-do-container {
   background-color: #0088cc;
   height: auto;
+  min-height: calc(100vh - 108px);
   width: 35%;
   color: white;
 }
@@ -223,6 +227,7 @@ body {
   height: auto;
   width: 35%;
   color: white;
+  min-height: calc(100vh - 108px);
 }
 .doing h3 {
   font-size: 1.6rem;
@@ -235,6 +240,7 @@ body {
   height: auto;
   width: 35%;
   color: white;
+  min-height: calc(100vh - 108px);
 }
 .done h3 {
   font-size: 1.6rem;
@@ -249,11 +255,14 @@ body {
   }
   main .to-do-container {
     width: 100%;
+    min-height: auto;
   }
   main .doing {
     width: 100%;
+    min-height: auto;
   }
   main .done {
     width: 100%;
+    min-height: auto;
   }
 }/*# sourceMappingURL=main.css.map */
