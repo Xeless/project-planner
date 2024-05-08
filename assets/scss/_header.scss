@@ -14,20 +14,24 @@ body{
     nav{
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        // padding: 10px;
-         img{
-             width: 100%;
-         }
+        
+        .logo{
+            width: 80%;
+        }
+         
         button{
             border: none;
-            width: 10%;
             border-radius: 40px;
             cursor: pointer;
             font-size: 18px;
             background-color: transparent;
             padding: 10px 20px;
             color: var(--text-color);
+        }
+        .button-header{
+            display: flex;
+            width: 20%;
+            justify-content: space-between;
         }
     }
     button:hover{
@@ -36,6 +40,7 @@ body{
     .menu{
         padding: 15px;
         text-align: center;
+
         a{
             text-decoration: none;
             border-radius: 40px;
@@ -51,11 +56,11 @@ body{
 
     @media screen and (max-width: 767px) {
       nav {
-        img{
-            width: 60%;
+        .logo{
+            width: 70%;
         }
-        button{
-        width: 50%;
+        .button-header{
+        width: 30%;
         }
       }
 

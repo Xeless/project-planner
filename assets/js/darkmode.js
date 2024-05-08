@@ -1,12 +1,6 @@
-const darkModeButton = document.createElement("button");
-darkModeButton.id = "darkMode";
-const darkIcon = document.createElement("i");
-darkIcon.id = "iconMode";
-darkIcon.classList.add("fa-solid");
-darkIcon.classList.add("fa-sun");
-darkIcon.classList.add("fa-beat");
-darkModeButton.appendChild(darkIcon);
-document.body.appendChild(darkModeButton);
+const darkModeButton = document.getElementById("darkMode");
+
+const darkIcon = document.getElementById("iconMode");
 
 const logo = document.querySelector("img");
 
