@@ -41,7 +41,7 @@ Gather,Visual Studio Code
 
 Maryam : filter ,header ,dark mode,Ajoutée un storage Local
 
-Tom : pn ,task ,delai date,Ajoutée des icons sur le task pour del/modif/done/progresse
+Tom : pm ,task ,delai date,Ajoutée des icons sur le task pour del/modif/done/progresse
 
 Stacy : to-do-list ,le dark mode,Readme
  
